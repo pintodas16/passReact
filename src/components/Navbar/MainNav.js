@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import { Nav, Navbar, Container, Form, FormControl,Button} from "react-bootstrap";
-import { NavLink,Link } from "react-router-dom";
+import { Nav, Navbar, Container} from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import logo from '../../assets/images/logo2.png'
 
 class MainNav extends Component {

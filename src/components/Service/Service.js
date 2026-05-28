@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import React, { Component} from 'react';
+import {  Col, Container, Row } from 'react-bootstrap';
 import s1 from '../../assets/images/service/s1.png'
 import s2 from '../../assets/images/service/s2.png'
 import s3 from '../../assets/images/service/s3.png'

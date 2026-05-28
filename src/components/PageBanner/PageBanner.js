@@ -5,7 +5,7 @@ import s2 from '../../assets/images/shape/3.png'
 import s3 from '../../assets/images/shape/6.png'
 import s4 from '../../assets/images/shape/4.png'
 import s5 from '../../assets/images/shape/5.png'
-import s6 from '../../assets/images/shape/6.png'
+
 class PageBanner extends Component {
     render() {
         return (

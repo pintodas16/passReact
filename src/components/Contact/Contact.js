@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Form, Button, Col, Container, Row } from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Form,  Col, Container, Row } from 'react-bootstrap';
 import img1 from '../../assets/images/contact-img.png'
 class Contact extends Component {
     render() {

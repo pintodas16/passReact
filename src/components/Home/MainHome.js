@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import React, { Component } from 'react';
+import {  Col, Container, Row } from 'react-bootstrap';
 import bannerImg from '../../assets/images/home-bg-1-img.png'
 import shape1 from '../../assets/images/shape/1.png'
 import shape2 from '../../assets/images/shape/2.png'
