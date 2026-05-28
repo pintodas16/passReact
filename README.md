@@ -1,68 +1,110 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Paso React
 
-## Available Scripts
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-PasoReact-blue?style=flat-square)](https://passreact.netlify.app/)
+[![React](https://img.shields.io/badge/React-16.13.1-informational?style=flat-square&logo=react)](https://reactjs.org/)
+[![Create React App](https://img.shields.io/badge/CRA-3.4.1-lightgrey?style=flat-square)](https://create-react-app.dev/)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Paso React is a modern landing page SPA built with Create React App. It combines responsive UI sections, reusable component structure, and client-side routing to showcase services, case studies, blog content, team profiles, and contact details.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The project is deployment-ready and works well on static hosts like Netlify.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+- https://passreact.netlify.app/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Responsive multi-section landing page layout
+- Reusable React components for pages and content blocks
+- Smooth navigation with `react-router-dom`
+- Bootstrap-driven UI with custom Sass styling
+- Carousel and animated content support
+- Production-ready build artifact in `build/`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- React 16.13.1
+- Create React App
+- React Router DOM
+- Bootstrap 4
+- Sass
+- React Icons
+- React Owl Carousel
+- React Accessible Accordion
+- React Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone <repository-url>
+cd pasoReact
+npm install
+```
+
+## Usage
+
+Start the development server:
+
+```bash
+npm start
+```
+
+Open http://localhost:3000 in your browser. The development server reloads when code changes.
+
+## Scripts
+
+| Command | Description |
+|--------|-------------|
+| `npm start` | Start development server |
+| `npm test` | Launch test runner |
+| `npm run build` | Create production build in `build/` |
+| `npm run eject` | Eject CRA configuration (one-way) |
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Warning:** ejecting is irreversible. It copies all configuration files and dependencies (webpack, Babel, ESLint, etc.) into the project so you can maintain them directly.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Build the app for production:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm run build
+```
+
+Deploy the generated `build/` directory to a static hosting provider such as Netlify, Vercel, or GitHub Pages.
+
+## Configuration
+
+No custom environment variables are required by default.
+
+If environment-specific configuration is needed later, add a `.env` file to the project root and follow Create React App environment variable conventions.
+
+## Project Structure
+
+- `public/` — static assets and HTML template
+- `src/` — source code, components, pages, and styles
+- `src/components/` — reusable UI components
+- `src/pages/` — page-level route components
+- `src/router/` — routing configuration
+- `build/` — production build output
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
 
-### Code Splitting
+### Additional Resources
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Code splitting: https://facebook.github.io/create-react-app/docs/code-splitting
+- Analyzing bundle size: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Progressive Web App: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Advanced configuration: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Deployment: https://facebook.github.io/create-react-app/docs/deployment
+- `npm run build` fails to minify: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
